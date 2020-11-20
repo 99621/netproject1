@@ -69,7 +69,7 @@ $(document).ready(function(){
 	
 	//initialize isotope
 	
-	/*$wrapper.isotope({
+	$wrapper.isotope({
 		
 		filter : '*',
 		layoutMode : 'masonry',
@@ -80,7 +80,7 @@ $(document).ready(function(){
 	
 		}
 		
-	});*/
+	});
 	
 	let links = document.querySelectorAll('.tabs a');
 	
@@ -138,7 +138,13 @@ $(document).ready(function(){
 		});
 		
 		
+	// slider
+
+	/*$('.slider').slick({
+		arrows: false,
+		autoplay: true
 		
+	});*/
 	
 	
 	
